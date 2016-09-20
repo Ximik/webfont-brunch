@@ -12,12 +12,13 @@
     "brunch-plugin"
   ],
   "author": "Alex Tsokurov <me@ximik.net>",
-  "dependencies": {
-    "webfonts-generator": "^0.3.5"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:Ximik/webfont-brunch.git"
+  },
+  "main": "./src/index",
+  "dependencies": {
+    "webfonts-generator": "^0.3.5"
   },
   "license": "MIT"
 }
